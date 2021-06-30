@@ -1,0 +1,2 @@
+This a use case for calculating specific weekday for next month or a next month after given date input. For example if current date is 22 August 2021 and we are searching te last Thursday then the result would be 30 September 2021. If the searched date is end of month and we do not wat the end of month then the result would be 23 September 2021 and so on.
+I plan to make the solution fully automated with function which you can move backwards and forward specific days, month, year (maybe quarter too), and search before/after first, second, third, fourth, fifth, last weekday.
