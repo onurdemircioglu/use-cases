@@ -1,0 +1,1 @@
+This a use case for calculating specific weekday for next month or a next month after given date input. For example if current date is 22 August 2021 and we are searching te last Thursday then the result is 
