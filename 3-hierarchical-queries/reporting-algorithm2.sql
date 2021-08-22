@@ -38,4 +38,11 @@ FROM
             )
         )
     ) A
+WHERE 1=1
+    AND
+    (
+    QUARTER_01 > TO_DATE('31122017', 'DDMMYYYY')
+    AND QUARTER_02 > TO_DATE('31122017', 'DDMMYYYY')
+    AND NVL(QUARTER_03, TO_DATE('31122999', 'DDMMYYYY')) > TO_DATE('31122017', 'DDMMYYYY')
+    )
 ;
